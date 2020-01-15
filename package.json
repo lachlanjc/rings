@@ -1,0 +1,16 @@
+{
+  "name": "rings",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next"
+  },
+  "author": "Lachlan Campbell (https://lachlanjc.me)",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^9.1.7",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
