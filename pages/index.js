@@ -24,7 +24,6 @@ export default () => (
         property="description"
         content="Prototyping rendering Apple Watch Activity rings in React."
       />
-      <link rel="stylesheet" href="//2019.windyhacks.com/fonts.css" />
     </Head>
     <h1>
       <span>Re</span>activity Rings
@@ -53,9 +52,8 @@ export default () => (
     </footer>
     <style jsx global>{`
       :root {
-        --sans: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B', system-ui,
-          -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
-        --serif: Sentinel, system-ui, Georgia, serif;
+        --sans: ui-rounded, system-ui, -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+        --serif: ui-serif, Georgia, Times, serif;
         --bg: #eee;
         --elevated: #fff;
         --text: #111;
